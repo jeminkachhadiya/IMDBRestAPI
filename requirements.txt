@@ -1,0 +1,7 @@
+flask
+bs4
+pandas
+flask-jsonpify
+flask-sqlalchemy
+flask_restful
+lxml

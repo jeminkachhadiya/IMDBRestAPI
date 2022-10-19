@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movies</title>
+</head>
+<body>
+<form action="/movies" method="POST">
+    <p>select this button to get all movies</p>
+<input type="submit">
+</form>
+<form action="/moviesid" method="POST">
+    <br>
+    <p>Select movie id number to get details</p>
+    <input type="text"  value="" placeholder="movie number" name="id">
+<input type="submit">
+</form>
+<form action="/sortbyname" method="POST">
+    <p>select this button to get all movies sort by name</p>
+<input type="submit">
+</form>
+<form action="/sortbyrating" method="POST">
+    <p>select this button to get all movies sort by rating</p>
+<input type="submit">
+</form>
+<form action="/sortbyrd" method="POST">
+    <p>select this button to get all movies sortby release date</p>
+<input type="submit">
+</form>
+
+<form action="/sortbyduration" method="POST">
+    <p>select this button to get all movies sort by duration</p>
+<input type="submit">
+</form>
+    <form action="/search" method="POST">
+    <br>
+    <p>Search movie's title or description to get details</p>
+    <input type="text"  value="" placeholder="search keywords of movie" name="data">
+<input type="submit">
+</body>
+</html>
